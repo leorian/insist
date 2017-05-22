@@ -3743,4 +3743,4 @@
         "object" == typeof module && module && "object" == typeof module.exports ? module.exports = w : (e.jQuery = e.$ = w, "function" == typeof define && define.amd && define("jquery", [], function () {
                 return w
             }))
-})(window)
+})(window);
