@@ -20434,7 +20434,7 @@ define("common/directives/topbar", ["../cons/aliyunConsViewFramework", "../cons/
             o == "LCC" ? (r.navLinks.notShowProd = !0, r.navLinks.home = {
                 icon: "icon-home",
                 href: "",
-                text: "管理控制台",
+                text: "INSIST-RPC管理平台",
                 target: "_self",
                 show: !0
             }, d(r, t)) : p(t),
@@ -21532,7 +21532,7 @@ define("lcc/cons/lccCons", [], function () {
             },
             DEPLOY_REGIONS: n,
             NAVBAR_CONS: {
-                title: "EDAS配置中心",
+                title: "INSIST-RPC配置中心",
                 mainNav: [{
                     title: "配置列表",
                     state: "dsConfig"
@@ -22939,7 +22939,7 @@ define("lcc/initConfig", ["angular", "app", "common/helper/i18nHelper", "lcc/con
         }),
         o.onReady(function () {}),
         o.setVersion("1.3.27"),
-        u.setTitle("EDAS配置中心"),
+        u.setTitle("INSIST-RPC配置中心"),
         u.setMainNav(r.NAVBAR_CONS.mainNav_NotLoggedIn),
         s.BETA_CONS.link.userLinks[3].href = "/json/logout.htm";
         var a = i.getGlobalKey("REGION_LIST_CONFIG") || [],
