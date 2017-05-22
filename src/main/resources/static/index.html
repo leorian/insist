@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="zh" >
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="data-spm" content="5176"/>
+    <link rel="shortcut icon" href="http://www.aliyun.com/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="console/styles/bootstrap/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="console/styles/angular-growl.min.css">
+    <link rel="stylesheet" type="text/css" href="console/styles/console1412.css">
+    <link rel="stylesheet" type="text/css" href="lcc/styles/lcc/lcc.console.css">
+    <link rel="stylesheet" type="text/css" href="console/styles/select2.css">
+
+    <!--  &lt;!&ndash; xuanye &ndash;&gt;
+      <script src="xuanyeApp/adapt-strap.min.js"></script>
+      <script src="xuanyeApp/adapt-strap.tpl.min.js"></script>
+      <link rel="stylesheet" href="xuanyeApp/adapt-strap.min.css"/>-->
+    <!--[if lt IE 8]>
+    <script src="/aliyun/console/@@version_console/scripts/browser-not-supported.js"></script>
+    <![endif]-->
+    <script>
+        if(!window.console){
+            console = {
+                log: function(info){
+                    return false
+                }
+            }
+        }
+
+        var ALIYUN_LCC_CONSOLE_CONFIG = {
+            SEC_TOKEN: "eXzIWH5Bna1HAWOCKHBg6"
+        }
+
+        var LCC_CONSOLE_CONFIG = {
+            // LOGIN: "https://account.aliyun.com/login/login.htm"
+            LOGIN: "http://" + location.host//,
+            // LCC_ECS_BUY_LINK: "http://buy.aliyun.com/?spm=5176.2020520101.105.6.zE7L7D",
+            // LCC_ECS_CONSOLE_LINK: "http://console.aliyun.com/ecs/index.htm?#/server/{{item.instanceId}}/detail"
+        }
+
+        var LCC_CREATE_SUB_ACCOUNT = false;
+
+        var CONSOLE_PRODUCT_NAME = 'LCC';
+
+        var LCC_PRIVATE_CLOUD = false;
+
+        var REGION_LIST_CONFIG=[
+            {
+                "regionName": "华东1(杭州)",
+                "regionNo": "cn-hangzhou",
+                "agentInstall": "http://lcc-hz.oss-cn-hangzhou-internal.aliyuncs.com/install.sh",
+                "agentInstall4vpc": "http://lcc-hz.vpc100-oss-cn-hangzhou.aliyuncs.com/install.sh"
+            },{
+                "regionName": "华北1(青岛)",
+                "regionNo": "cn-qingdao",
+                "agentInstall": "http://lcc-qd.oss-cn-qingdao-internal.aliyuncs.com/test/install.sh",
+                "agentInstall4vpc": "http://lcc-qd.vpc100-oss-cn-qingdao.aliyuncs.com/install.sh"
+            },{
+                "regionName": "华北2(北京)",
+                "regionNo": "cn-beijing",
+                "agentInstall": "http://lcc-bj.oss-cn-beijing-internal.aliyuncs.com/install.sh",
+                "agentInstall4vpc": "http://lcc-bj.vpc100-oss-cn-beijing.aliyuncs.com/install.sh"
+            },{
+                "regionName": "华南1(深圳)",
+                "regionNo": "cn-shenzhen",
+                "agentInstall": "http://lcc-sz.oss-cn-shenzhen-internal.aliyuncs.com/install.sh",
+                "agentInstall4vpc": "http://lcc-sz.vpc100-oss-cn-shenzhen.aliyuncs.com/install.sh"
+            }];
+
+        var LCC_ROOT_URL = "http://g.assets.daily.taobao.net/cm/lcc/0.0.5";
+
+        var LCC_UMID_TOKEN = 'Y8a52b85138421491cca0648fdb2a5f69';
+
+        var ENABLE_RISK_CONTROL = true;
+
+        var IMPORT_ECS_URL = 'http://lcc-qd.oss-cn-qingdao.aliyuncs.com/test/ecs.xlsx';
+
+        /**
+         * HOME_DETAIL_MENUS 左侧菜单栏
+         */
+        var HOME_DETAIL_MENUS = {
+            lccDetail: [{
+                title: '基本信息',
+                state: 'lccDetail.basicInfo',
+                includes: ['lccDetail.basicInfo']
+            },{
+                title: '运行日志',
+                state: 'lccDetail.appLogs',
+                includes: ['lccDetail.appLogs', 'lccDetail.realLog']
+            },{
+                title: '应用监控',
+                state: 'lccDetail.eagleeye',
+                childs : [
+                    {
+                        title: '监控大盘',
+                        state: 'lccDetail.appMonitor'
+                    },{
+                        title: '基础监控',
+                        state: 'lccDetail.basicMonitor.summary',
+                        includes: ['lccDetail.basicMonitor.summary','lccDetail.basicMonitor.detail']
+                    },{
+                        title: '服务监控',
+                        state: 'lccDetail.eagleeye.summary',
+                        includes: [
+                            'lccDetail.eagleeye.summary',
+                            'lccDetail.eagleeye.http',
+                            'lccDetail.eagleeye.hsf',
+                            'lccDetail.eagleeye.upstream',
+                            'lccDetail.eagleeye.downstream',
+                            'lccDetail.eagleeye.ons',
+                            'lccDetail.eagleeye.onsSend',
+                            'lccDetail.eagleeye.onsReceive',
+                            'lccDetail.eagleeye.drds']
+                    }]
+            },{
+                title: '通知报警',
+                state: 'lccDetail.alarm',
+                childs : [
+                    {
+                        title : '报警规则',
+                        state : 'lccDetail.alarm',
+                        includes: ['lccDetail.alarm', 'lccDetail.createAlarmRule']
+                    },{
+                        title : '报警联系人',
+                        state : 'lccDetail.alarmContacts'
+                    },{
+                        title : '报警记录',
+                        state : 'lccDetail.alarmRecords'
+                    }
+                ]
+            },{
+                title: '服务列表',
+                state: 'lccDetail.serviceList.published',
+                includes: ['lccDetail.serviceList.published', 'lccDetail.serviceList.consumed','lccDetail.interface']
+            },{
+                title: '容量规划',
+                state: 'lccDetail.loadrun',
+                includes: ['lccDetail.loadrun'],
+                childs : [
+                    {
+                        title : '压测配置',
+                        state : 'lccDetail.loadrun'
+                    },{
+                        title : '压测结果',
+                        state : 'lccDetail.loadrunResult'
+                    },{
+                        title : '容量数据',
+                        state : 'lccDetail.loadrunCapacity'
+                    }
+                ]
+            },{
+                title: '弹性伸缩',
+                state: 'lccDetail.scaling',
+                includes: ['lccDetail.scaling'],
+                childs : [
+                    {
+                        title : '伸缩规则',
+                        state : 'lccDetail.scaling'
+                    },{
+                        title : '历史记录',
+                        state : 'lccDetail.scalingRecord'
+                    }
+                ]
+            },{
+                title: '限流降级',
+                state: 'lccDetail.flowControl',
+                includes: ['lccDetail.flowControl'],
+                childs : [
+                    {
+                        title : '限流规则',
+                        state : 'lccDetail.flowControl'
+                    },{
+                        title : '降级规则',
+                        state : 'lccDetail.degradeRule'
+                    }
+                ]
+            },{
+                title: '容器诊室',
+                state: 'lccDetail.container.memory',
+                includes: ['lccDetail.container.memory',
+                    'lccDetail.container.thread',
+                    'lccDetail.container.classloader',
+                    'lccDetail.container.connector',
+                    'lccDetail.container.version']
+            },{
+                title: '软件版本',
+                state: 'lccDetail.softwareVersion',
+                includes: ['lccDetail.softwareVersion']
+            },{
+                title: '操作记录',
+                state: 'lccDetail.opLogs',
+                includes: ['lccDetail.opLogs','lccDetail.opLogDetail']
+            }]
+        };
+    </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/html5shiv.js"></script>
+    <script src="assets/respond.min.js"></script>
+    <link href="console/vendor/respond/cross-domain/respond-proxy.html" id="respond-proxy" rel="respond-proxy" />
+    <link href="console/vendor/respond/cross-domain/respond.proxy.gif" id="respond-redirect" rel="respond-redirect"/>
+    <script src="console/vendor/respond/cross-domain/respond.proxy.js"></script>
+    <script src="lcc/scripts/lcc/vendor/es5-shim/es5-shim.js"></script>
+    <script src="lcc/scripts/lcc/vendor/es5-shim/es5-sham.js"></script>
+    <![endif]-->
+    <script src="lcc/scripts/lcc/nls/messages.js"></script>
+    <script data-main="lcc/scripts/lcc/main"
+            src="console/vendor/requirejs/require.js"></script>
+    <script src="lcc/scripts/lcc/lccConsole.js"></script>
+    <script>
+        require(['../lcc/bootstrap'], function(bootstrap){ });
+    </script>
+    <title>EDAS配置中心</title>
+</head>
+<body data-spm="2020520107">
+<div view-framework>
+    <div ui-view class="console-container" ng-animate="{enter:'fade-enter'}"></div>
+    <div data-ng-controller="lccCommonController"></div>
+    <!-- 增加1*1像素图片请求，img位置可指定空白区位置;
+    注意：
+    1)禁用style设置为display:none 和 visibility:hidden
+    2)此div“可能”会影响页面布局，建议前端在实际部署时，安排在合适的位置，例如页面最下方
+    -->
+    <div  id="_umfp" style="display:inline;width:1px;height:1px;overflow:hidden">
+        <img src="assets/clear.png"/>
+    </div>
+    <div growl></div>
+    <!--<script type="text/javascript" src="assets/aplus_v2.js"></script>-->
+    <!--<script type="text/javascript" charset="utf-8" src="assets/um.js"></script>-->
+    <!--<script type="text/javascript">-->
+        <!--var container = document.getElementById('_umfp');-->
+        <!--var json = {-->
+            <!--timeout : 3000,-->
+            <!--timestamp : new Date().getTime(),-->
+            <!--token : 'Y8a52b85138421491cca0648fdb2a5f69',-->
+            <!--serviceUrl : 'http://localhost:8080/assets/um.json',-->
+            <!--appName : 'lcc_portal',-->
+            <!--containers : {-->
+                <!--flash : container,-->
+                <!--dcp : container-->
+            <!--}-->
+        <!--};-->
+        <!--um.init(json);-->
+    <!--</script>-->
+</div>
+<!--script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan style='display:none;' id='cnzz_stat_icon_1256884737'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s5.cnzz.com/stat.php%3Fid%3D1256884737' type='text/javascript'%3E%3C/script%3E"));</script-->
+</body>
+</html>

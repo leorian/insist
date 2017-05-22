@@ -1,0 +1,594 @@
+  .product-icons-32,.product-icons-48,.product-icons-64{
+    display: inline-block;
+  }
+  .product-icons-32{
+    width: 32px;
+    height: 32px;
+  }
+  .product-icons-48{
+    width: 48px;
+    height: 48px;
+  }
+
+  .product-icons-64{
+    width: 64px;
+    height: 64px;
+  }
+
+
+  .product-icons-32.product-icons-afc-grey {
+     background-position: -144px -368px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-32.product-icons-afc {
+     background-position: -208px -368px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-48.product-icons-afc-grey {
+     background-position: -192px -320px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-48.product-icons-afc {
+     background-position: -368px -288px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-64.product-icons-afc-grey {
+     background-position: -64px -64px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-64.product-icons-afc {
+     background-position: -128px 0px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-32.product-icons-agc-grey {
+     background-position: -416px -352px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-32.product-icons-agc {
+     background-position: -336px -320px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-48.product-icons-agc-grey {
+     background-position: -368px -240px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-48.product-icons-agc {
+     background-position: -368px -96px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-64.product-icons-agc-grey {
+     background-position: -64px -128px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-64.product-icons-agc {
+     background-position: -128px -128px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-32.product-icons-arc-grey {
+     background-position: -368px -368px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-32.product-icons-arc {
+     background-position: -416px -192px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-48.product-icons-arc-grey {
+     background-position: -368px -48px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-48.product-icons-arc {
+     background-position: -240px -320px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-64.product-icons-arc-grey {
+     background-position: -192px -128px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-64.product-icons-arc {
+     background-position: 0px -192px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-32.product-icons-asc-grey {
+     background-position: -416px 0px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-32.product-icons-asc {
+     background-position: -416px -96px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-48.product-icons-asc-grey {
+     background-position: -96px -368px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-48.product-icons-asc {
+     background-position: -48px -320px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-64.product-icons-asc-grey {
+     background-position: -192px -192px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-64.product-icons-asc {
+     background-position: -256px 0px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-32.product-icons-awc-grey {
+     background-position: -176px -368px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-32.product-icons-awc {
+     background-position: -336px -368px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-48.product-icons-awc-grey {
+     background-position: 0px -320px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-48.product-icons-awc {
+     background-position: -320px -144px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-64.product-icons-awc-grey {
+     background-position: -256px -192px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-64.product-icons-awc {
+     background-position: 0px -256px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-32.product-icons-duomeiti-grey {
+     background-position: -416px -288px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-32.product-icons-duomeiti {
+     background-position: -416px -320px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-48.product-icons-duomeiti-grey {
+     background-position: -320px -96px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-48.product-icons-duomeiti {
+     background-position: -256px -256px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-64.product-icons-duomeiti-grey {
+     background-position: -128px -256px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-64.product-icons-duomeiti {
+     background-position: 0px 0px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-32.product-icons-game-grey {
+     background-position: -416px -384px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-32.product-icons-game {
+     background-position: -304px -368px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-48.product-icons-game-grey {
+     background-position: -320px 0px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-48.product-icons-game {
+     background-position: -320px -48px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-64.product-icons-game-grey {
+     background-position: -64px -256px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-64.product-icons-game {
+     background-position: -256px -128px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-32.product-icons-hcc-grey {
+     background-position: -416px -128px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-32.product-icons-hcc {
+     background-position: -416px -160px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-48.product-icons-hcc-grey {
+     background-position: -320px -192px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-48.product-icons-hcc {
+     background-position: -320px -240px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-64.product-icons-hcc-grey {
+     background-position: -256px -64px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-64.product-icons-hcc {
+     background-position: -128px -192px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-32.product-icons-iot-grey {
+     background-position: -368px -336px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-32.product-icons-iot {
+     background-position: -320px -288px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-48.product-icons-iot-grey {
+     background-position: -96px -320px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-48.product-icons-iot {
+     background-position: -144px -320px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-64.product-icons-iot-grey {
+     background-position: -64px -192px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-64.product-icons-iot {
+     background-position: -192px -64px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-32.product-icons-o2o-grey {
+     background-position: -240px -368px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-32.product-icons-o2o {
+     background-position: -272px -368px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-48.product-icons-o2o-grey {
+     background-position: -288px -320px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-48.product-icons-o2o {
+     background-position: -368px 0px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-64.product-icons-o2o-grey {
+     background-position: -192px 0px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-64.product-icons-o2o {
+     background-position: 0px -128px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-32.product-icons-storage-grey {
+     background-position: -416px -32px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-32.product-icons-storage {
+     background-position: -416px -64px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-48.product-icons-storage-grey {
+     background-position: -368px -144px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-48.product-icons-storage {
+     background-position: -368px -192px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-64.product-icons-storage-grey {
+     background-position: -128px -64px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-64.product-icons-storage {
+     background-position: 0px -64px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-32.product-icons-ws-grey {
+     background-position: -416px -224px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-32.product-icons-ws {
+     background-position: -416px -256px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-48.product-icons-ws-grey {
+     background-position: 0px -368px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-48.product-icons-ws {
+     background-position: -48px -368px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-64.product-icons-ws-grey {
+     background-position: -192px -256px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
+  .product-icons-64.product-icons-ws {
+     background-position: -64px 0px !important;
+     background-image: url(cloud.icons.png);
+     background-image: -webkit-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -moz-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -ms-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+     background-image: -os-image-set(url(cloud.icons.png) 1x, url(cloud.icons@2x.png) 2x);
+  }
