@@ -23769,29 +23769,6 @@ define("lcc/services/accountServices", ["./services", "angular", "../cons/lccCon
         return n
     }])
 }),
-define("lcc/services/homeServices", ["./services", "angular", "../cons/lccCons", "common/services/aliyunHttpHandler"], function (e, t, n) {
-    e.factory("lccHomeRequest", ["aliyun.console.request", function (e) {
-        var t = e.request,
-            n = {
-                systemOverview: function (e) {
-                    return t("/json/systemOverviewJson.htm", e)
-                },
-                queryDocs: function (e) {
-                    return t("/json/queryDocsJson.json", e)
-                },
-                updateCollect: function (e) {
-                    return t("/json/updateCollectJson.htm", e)
-                },
-                deleteCollect: function (e) {
-                    return t("/json/deleteCollectJson.htm", e)
-                },
-                queryCollect: function (e) {
-                    return t("/json/queryCollectJson.htm", e)
-                }
-            };
-        return n
-    }])
-}),
 define("lcc/services/resourceServices", ["./services", "angular", "../cons/lccCons", "common/services/aliyunHttpHandler"], function (e, t, n) {
     e.factory("lccResourceRequest", ["aliyun.console.request", function (e) {
         var t = e.request,
@@ -23809,7 +23786,7 @@ define("lcc/services/resourceServices", ["./services", "angular", "../cons/lccCo
         return n
     }])
 }),
-define("lcc/services/_base", ["./services", "./accountServices", "./homeServices", "./resourceServices"], function () {}),
+define("lcc/services/_base", ["./services", "./accountServices", "./resourceServices"], function () {}),
 define("lcc/directives/directives", ["angular"], function (e) {
     return e.module(["lccDirectives"], [])
 }),
