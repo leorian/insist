@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="robots" content="none"/>
+    <title>solo_ui</title>
+    <link type="text/css" rel="stylesheet" href="css/default-base.css"/>
+    <link type="text/css" rel="stylesheet" href="css/default-admin.css"/>
+    <link type="text/css" rel="stylesheet" href="js/lib/CodeMirrorEditor/codemirror.min.css"/>
+    <link type="text/css" rel="stylesheet" href="js/lib/highlight.js-9.6.0/styles/github.css"/>
+    <link rel="icon" type="image/png" href="favicon.png"/>
+</head>
+<body>
+<div id="allPanel">
+    <div id="top">
+        <a href="http://b3log.org" target="_blank" class="hover">
+            Solo
+        </a>
+        <span class="right">
+                    <a href="javascript:void (0);" title='首页'>首页</a>
+            <a href='javascript:void (0);' title='退出'>退出</a>
+        </span>
+    </div>
+    <div id="tabs">
+        <ul>
+            <li>
+                <div id="tabs_main">
+                    <a href="#main">
+                        <span class="icon-refresh"></span> 后台首页
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div id="tabArticleTitle" class="tab-current" onclick="javascript:void (0);">
+                    <span class="icon-article"></span>
+                    文章
+                    <span class="icon-chevron-up right"></span>
+                </div>
+                <ul id="tabArticleMgt">
+                    <li>
+                        <div id="tabs_article">
+                            <a href="javascript:void (0);" onclick="javascript:void (0);">发布文章</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="tabs_article-list">
+                            <a href="javascript:void (0);">文章管理</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="tabs_draft-list">
+                            <a href="javascript:void (0);">草稿夹</a>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <div id="tabs_comment-list">
+                    <a href="javascript:void (0);">
+                        <span class="icon-cmts"></span>评论管理
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div id="tabToolsTitle" onclick="javascript:void (0);">
+                    <span class="icon-setting"></span>
+                    工具
+                    <span class="icon-chevron-down right"></span>
+                </div>
+                <ul class="none" id="tabTools">
+                    <li>
+                        <div id="tabs_preference">
+                            <a href="javascript:void (0);">偏好设定</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="tabs_category-list">
+                            <a href="javascript:void (0);">分类管理</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="tabs_page-list">
+                            <a href="javascript:void (0);">导航管理</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="tabs_link-list">
+                            <a href="javascript:void (0);">链接管理</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="tabs_user-list">
+                            <a href="javascript:void (0);">用户管理</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="tabs_plugin-list">
+                            <a href="javascript:void (0);">插件管理</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="tabs_others">
+                            <a href="javascript:void (0);">其他</a>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <div id="tabs_about">
+                    <a href="javascript:void (0);">
+                        <span class="icon-info"></span> 关于
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div id="tabsPanel">
+        <div id="tabsPanel_main" class="none"></div>
+        <div id="tabsPanel_article" class="none"></div>
+        <div id="tabsPanel_article-list" class="none"></div>
+        <div id="tabsPanel_draft-list" class="none"></div>
+        <div id="tabsPanel_link-list" class="none"></div>
+        <div id="tabsPanel_preference" class="none"></div>
+        <div id="tabsPanel_category-list" class="none"></div>
+        <div id="tabsPanel_page-list" class="none"></div>
+        <div id="tabsPanel_others" class="none"></div>
+        <div id="tabsPanel_user-list" class="none"></div>
+        <div id="tabsPanel_comment-list" class="none"></div>
+        <div id="tabsPanel_plugin-list" class="none"></div>
+        <div id="tabsPanel_about" class="none"></div>
+    </div>
+    <div class="clear"></div>
+    <div class="footer">
+        Powered by <a href="http://b3log.org" target="_blank">B3log 开源</a> • <a href="https://hacpai.com/tag/solo"
+                                                                                target="_blank">Solo</a>
+    </div>
+</div>
+<script src="js/lib/compress/admin-lib.min.js"></script>
+<script src="js/lib/tiny_mce/tiny_mce.js"></script>
+<script src="js/lib/KindEditor/kindeditor-min.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>
