@@ -1,9 +1,3 @@
-define("jQuery", function (e) {
-    return function () {
-        var t, n;
-        return t || e.jQuery
-    }
-}(this)),
 !angular.$$csp() && angular.element(document).find("head").prepend('<style type="text/css">@charset "UTF-8";[ng\\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\\:form{display:block;}.ng-animate-start{border-spacing:1px 1px;-ms-zoom:1.0001;}.ng-animate-active{border-spacing:0px 0px;-ms-zoom:1;}</style>'),
     define("angular", ["jQuery"], function (e) {
         return function () {
@@ -5101,8 +5095,8 @@ define("TweenMax", function (e) {
             }
         }])
     });
-    define("EndlessScroll", ["jQuery"], function () {
-    }),
+define("EndlessScroll", ["jQuery"], function () {
+}),
     !
         function () {
             "use strict";

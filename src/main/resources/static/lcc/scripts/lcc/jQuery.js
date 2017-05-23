@@ -3744,3 +3744,9 @@
                 return w
             }))
 })(window);
+define("jQuery", function (e) {
+    return function () {
+        var t, n;
+        return t || e.jQuery
+    }
+}(this));
