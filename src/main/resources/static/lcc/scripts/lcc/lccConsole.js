@@ -2239,9 +2239,19 @@
     }(),
     define("angularScreenfull", ["angular"], function () {
     }),
-    define("app", ["angular", "angular-cookies", "angular-file-upload", "ui.router", "ui.bootstrap", "ui.select2", "common/directives/aliyunInstanceSelector", "angular-animate", "angular-growl", "angular-ui-validate", "angular-sanitize", "aliyun-console-bootstrap-tpl", "angular-locale-zh-cn", "angular-translate", "aliyun-lcc-tpl", "bindonce", "common/directives/viewFramework", "common-tpl", "common/helper/objectHelper", "common/directives/aliyunCommonDirectives", "angularScreenfull"], function (e) {
+    define("app", ["angular", "angular-cookies", "angular-file-upload", "ui.router", "ui.bootstrap",
+        "ui.select2", "common/directives/aliyunInstanceSelector", "angular-animate", "angular-growl",
+        "angular-ui-validate", "angular-sanitize", "aliyun-console-bootstrap-tpl", "angular-locale-zh-cn",
+        "angular-translate", "aliyun-lcc-tpl", "bindonce", "common/directives/viewFramework", "common-tpl",
+        "common/helper/objectHelper", "common/directives/aliyunCommonDirectives", "angularScreenfull"],
+        function (e) {
         "use strict";
-        return e.module("lccConsole", ["ui.router", "ui.bootstrap", "ui.select2", "angularFileUpload", "aliyun.console.common.tpl", "aliyun.console.bootstrap.tpl", "aliyun.console.lcc.tpl", "ui.validate", "ngSanitize", "ngAnimate", "ngCookies", "angular-growl", "pasvaz.bindonce", "pascalprecht.translate", "aliyunConsoleControllers", "aliyunCommonDirectives", "aliyunCommonServices", "lccControllers", "lccStates", "lccServices", "lccDirectives", "lccFilters", "aliyun.console.viewFramework", "angularScreenfull", "console.dateRangePicker"])
+        return e.module("lccConsole", ["ui.router", "ui.bootstrap", "ui.select2", "angularFileUpload",
+            "aliyun.console.common.tpl", "aliyun.console.bootstrap.tpl", "aliyun.console.lcc.tpl",
+            "ui.validate", "ngSanitize", "ngAnimate", "ngCookies", "angular-growl", "pasvaz.bindonce",
+            "pascalprecht.translate", "aliyunConsoleControllers", "aliyunCommonDirectives",
+            "aliyunCommonServices", "lccControllers", "lccStates", "lccServices", "lccDirectives",
+            "lccFilters", "aliyun.console.viewFramework", "angularScreenfull", "console.dateRangePicker"]);
     }),
     define("common/controllers/controller", ["angular"], function (e) {
         return e.module(["aliyunConsoleControllers"], [])
@@ -8038,9 +8048,13 @@ define("EndlessScroll", ["jQuery"], function () {
             }
         }])
     }),
-    define("lcc/bootstrap", ["angular", "app", "lcc/initConfig", "lcc/controllers/_base", "lcc/states/_base", "lcc/services/_base", "lcc/directives/_base", "lcc/filters/_base", "common/services/_base", "common/services/topicService", "common/directives/_base", "common/directives/tooltip", "common/directives/simpleGrid"], function (e) {
+
+    define("lcc/bootstrap", ["angular", "app", "lcc/initConfig", "lcc/controllers/_base", "lcc/states/_base",
+        "lcc/services/_base", "lcc/directives/_base", "lcc/filters/_base", "common/services/_base",
+        "common/services/topicService", "common/directives/_base", "common/directives/tooltip",
+        "common/directives/simpleGrid"], function (e) {
         "use strict";
         e.element(document).ready(function () {
-            e.bootstrap(document, ["lccConsole"])
-        })
+            e.bootstrap(document, ["lccConsole"]);
+        });
     });
