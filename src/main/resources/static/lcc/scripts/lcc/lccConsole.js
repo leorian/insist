@@ -7,7 +7,6 @@
     }(this)),
     define("angular-cookies", ["angular"], function () {
     }),
-"undefined" != typeof module && "undefined" != typeof exports && module.exports === exports && (module.exports = "ui.router"),
     define("ui.router", ["angular"], function () {
     }),
     define("aliyun-console-bootstrap-tpl", ["angular"], function () {

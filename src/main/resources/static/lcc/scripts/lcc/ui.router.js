@@ -1002,4 +1002,5 @@
         t.module("ui.router.state").directive("uiSref", E).directive("uiSrefActive", S),
         x.$inject = ["$stateProvider", "$urlRouterProvider"],
         t.module("ui.router.compat").provider("$route", x).directive("ngView", y)
-})(window, window.angular)
+})(window, window.angular);
+"undefined" != typeof module && "undefined" != typeof exports && module.exports === exports && (module.exports = "ui.router");
