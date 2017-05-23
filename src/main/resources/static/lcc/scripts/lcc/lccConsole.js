@@ -16,47 +16,7 @@ define("angular-cookies", ["angular"], function () {}),
 define("ui.router", ["angular"], function () {}),
 define("aliyun-console-bootstrap-tpl", ["angular"], function () {}),
 define("ui.bootstrap", ["aliyun-console-bootstrap-tpl"], function () {}),
-
-
-function (e) {
-    typeof e.fn.each2 == "undefined" && e.extend(e.fn, {
-        each2: function (t) {
-            var n = e([0]),
-                r = -1,
-                i = this.length;
-            while (++r < i && (n.context = n[0] = this[r]) && t.call(n[0], r, n) !== !1);
-            return this
-        }
-    })
-}(jQuery),
 define("select2", ["jQuery"], function () {}),
-
-
-function (e) {
-    "use strict";
-    e.extend(e.fn.select2.defaults, {
-        formatNoMatches: function () {
-            return "没有找到匹配项"
-        },
-        formatInputTooShort: function (e, t) {
-            var n = t - e.length;
-            return "请再输入" + n + "个字符"
-        },
-        formatInputTooLong: function (e, t) {
-            var n = e.length - t;
-            return "请删掉" + n + "个字符"
-        },
-        formatSelectionTooBig: function (e) {
-            return "你只能选择最多" + e + "项"
-        },
-        formatLoadMore: function (e) {
-            return "加载结果中..."
-        },
-        formatSearching: function () {
-            return "搜索中..."
-        }
-    })
-}(jQuery),
 define("select2-locale-zh-cn", ["jQuery", "select2"], function () {}),
 angular.module("ui.select2", []).value("uiSelect2Config", {}).directive("uiSelect2", ["uiSelect2Config", "$timeout", function (e, t) {
     var n = {};
