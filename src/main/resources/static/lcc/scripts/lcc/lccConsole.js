@@ -3036,7 +3036,14 @@
             }])
         })
     }.call(this),
-    define("lcc/initConfig", ["angular", "app", "common/helper/i18nHelper", "lcc/cons/lccCons", "lcc/utils/lccVariablesService", "common/cons/aliyunConsTopbar", "common/controllers/commonController", "common/services/aliyunHttpHandler", "common/directives/topbar-new", "common/directives/globalNotice", "common/directives/datetimePicker"], function (e, t, n, r, i, s) {
+    /*
+     * lcc/initConfig
+     * */
+    define("lcc/initConfig", ["angular", "app", "common/helper/i18nHelper", "lcc/cons/lccCons",
+        "lcc/utils/lccVariablesService", "common/cons/aliyunConsTopbar",
+        "common/controllers/commonController", "common/services/aliyunHttpHandler",
+        "common/directives/topbar-new", "common/directives/globalNotice",
+        "common/directives/datetimePicker"], function (e, t, n, r, i, s) {
         t.config(["aliyunConsoleSettingProvider", function (e) {
             e.setProviderOptions({
                 linkHandler: function (e) {
@@ -3052,7 +3059,7 @@
                 sessionNeedBuyCode: "ConsoleNeedBuy",
                 sessionNeedNoticeLink: "http://" + location.host + "/#/notice/",
                 sessionNeedNoticeCode: "ConsoleNeedNotice"
-            })
+            });
         }]),
             t.config(["$tooltipProvider", function (e) {
                 e.options({
@@ -3060,62 +3067,62 @@
                 })
             }]).run(["$rootScope", "$cookieStore", "viewFrameworkSetting", "productNavBarSetting", function (t, n, o, u) {
                 o.setProductNavBar("col-1"),
-                    o.setProductId("lccApp"),
-                    o.setShowTopbar(!0),
-                    o.setHideSidebar(!0),
-                    o.setTopbarNavLinks({
-                        accesskeys: {
-                            show: !1
-                        },
-                        assist: {
-                            show: !1
-                        },
-                        customHelp: {
-                            show: !1
-                        },
-                        help: {
-                            show: !1
-                        },
-                        home: {
-                            show: !0
-                        },
-                        i18n: {
-                            show: !1,
-                            showNew: !1
-                        },
-                        icp: {
-                            show: !1
-                        },
-                        logo: {
-                            show: !1
-                        },
-                        message: {
-                            show: !1
-                        },
-                        product: {
-                            show: !1
-                        },
-                        qrcode: {
-                            show: !1
-                        },
-                        search: {
-                            show: !1
-                        },
-                        user: {
-                            show: !1
-                        },
-                        workorder: {
-                            show: !1
-                        }
-                    }),
-                    o.onReady(function () {
-                    }),
-                    o.setVersion("1.3.27"),
-                    u.setTitle("INSIST-RPC配置中心"),
-                    u.setMainNav(r.NAVBAR_CONS.mainNav_NotLoggedIn),
-                    s.BETA_CONS.link.userLinks[3].href = "/json/logout.htm";
+                o.setProductId("lccApp"),
+                o.setShowTopbar(!0),
+                o.setHideSidebar(!0),
+                o.setTopbarNavLinks({
+                    accesskeys: {
+                        show: !1
+                    },
+                    assist: {
+                        show: !1
+                    },
+                    customHelp: {
+                        show: !1
+                    },
+                    help: {
+                        show: !1
+                    },
+                    home: {
+                        show: !0
+                    },
+                    i18n: {
+                        show: !1,
+                        showNew: !1
+                    },
+                    icp: {
+                        show: !1
+                    },
+                    logo: {
+                        show: !1
+                    },
+                    message: {
+                        show: !1
+                    },
+                    product: {
+                        show: !1
+                    },
+                    qrcode: {
+                        show: !1
+                    },
+                    search: {
+                        show: !1
+                    },
+                    user: {
+                        show: !1
+                    },
+                    workorder: {
+                        show: !1
+                    }
+                }),
+                o.onReady(function () {
+                }),
+                o.setVersion("1.3.27"),
+                u.setTitle("INSIST-RPC配置中心"),
+                u.setMainNav(r.NAVBAR_CONS.mainNav_NotLoggedIn),
+                s.BETA_CONS.link.userLinks[3].href = "/json/logout.htm";
                 var a = i.getGlobalKey("REGION_LIST_CONFIG") || [],
-                    f = r.LCC_COOKIE_SELECTED_REGION_NO;
+                f = r.LCC_COOKIE_SELECTED_REGION_NO;
                 t.lccConfig = {
                     regionList: a,
                     selectedRegionNo: "",
@@ -3134,14 +3141,11 @@
                     }
                 };
                 var l = n.get(f);
-                l == undefined && a && a.length > 0 && (l = a[0].regionNo),
-                l && t.lccConfig.updateSelectedRegion(l)
+                l == undefined && a && a.length > 0 && (l = a[0].regionNo), l && t.lccConfig.updateSelectedRegion(l);
             }]).config(["$translateProvider", function (e) {
                 var t = window.ALIYUN_LCC_CONSOLE_MESSAGE || {};
-                e.translations("zh", t),
-                    e.preferredLanguage("zh"),
-                    n.i18nConfig(t)
-            }])
+                e.translations("zh", t), e.preferredLanguage("zh"), n.i18nConfig(t);
+            }]);
     }),
     define("common/modelSystem/modelSystemModule", ["angular"], function (e) {
         var t = e.module(["aliyunConsoleModelSystem"], []);
