@@ -30,58 +30,8 @@ define("jQuery", function (e) {
         "use strict";
         return e.module("aliyunCommonDirectives", [])
     }),
-    define("common/cons/aliyunCons", [], function () {
-        var e = {
-                SUCCESS: "200",
-                SESSION_TIMEOUT: "-99",
-                NEED_LOGIN: "-100",
-                HTTP_SUCCESS: 200
-            },
-            t = function () {
-                var e = window.location.hostname;
-                if (!e.match(/^.+\.aliyun\.|^aliyun\./)) return ".com";
-                var t = e.replace(/^.*\.aliyun|^aliyun/i, "");
-                return t || (t = ".com"),
-                    t
-            }();
-        return {
-            SHOW_RESPONSE_ERROR_MESSAGE: "showResponseErrorMessage",
-            RESPONSE_CODE: e,
-            ALIYUN_CONSOLE_SESSION_TIMEOUT: "aliyunConsoleSessionTimeout",
-            SUFFIX: t
-        }
-    }),
     define("common/services/services", ["angular"], function (e) {
         return e.module(["aliyunCommonServices"], [])
-    }),
-    define("common/helper/urlQueryStringHelper", [], function () {
-        function n() {
-            var n = window.location.search.substring(1),
-                r = null;
-            if (n) {
-                r = {};
-                if (n == t && e) return e[n];
-                t = n;
-                var i = n.split("&");
-                for (var s = 0, o = null; o = i[s]; s++) o = o.split("="),
-                    r[o[0]] = o[1];
-                return e[n] = r,
-                    r
-            }
-            return null
-        }
-
-        var e = {},
-            t = "";
-        return {
-            getQueryValue: function (e) {
-                var t = n();
-                if (t == null) return null;
-                var r = t[e];
-                return r
-            },
-            getQueryValueMap: n
-        }
     }),
     define("common/services/i18nService", ["angular", "./services", "../helper/urlQueryStringHelper", "../nls/messages", "../nls/messages_en"], function (e, t, n, r, i) {
         function a(e) {
